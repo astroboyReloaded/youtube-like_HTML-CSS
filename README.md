@@ -2,6 +2,6 @@
 
  Is the result of an exercise assignment by **TheOdinProject**.
 
-I hope it turns out nice!!!
+*I hope it turns out nice!!!*
 
-Thenk you for picking.
+Thank you for picking.
