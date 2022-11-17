@@ -6,13 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Youtube-like (TheOdinProject)</title>
     <link rel="stylesheet" href="/index.css" />
+    <script
+      src="https://kit.fontawesome.com/ec3aeabf1a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
-      <div class="menu"></div>
-      <div class="logo"></div>
-      <div class="searchbar"></div>
-      <div class="buttons"></div>
+      <div class="menu">
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-button-container">
+          <div class="menu-button"></div>
+        </label>
+      </div>
+      <div class="logo">
+        <a href="https://www.youtube.com/">
+          <img src="/assets/Youtube-logo.png" alt="youtube logo" />
+        </a>
+      </div>
+      <div class="searchbar">
+        <input type="text" placeholder="Search" />
+        <div class="srchIconCont">
+          <img
+            id="magGlass"
+            src="/assets/magnifying-glass-removebg.png"
+            alt=""
+          />
+          <button id="magGlassButt"></button>
+        </div>
+        <div class="micCont">
+          <img id="mic" src="/assets/microphone-icon.png" alt="" />
+        </div>
+      </div>
+      <div class="buttons">
+        <div class="crtIconCont">
+          <img id="crtImg" src="/assets/create-icon-removebg.png" alt="" />
+        </div>
+        <div class="bellIconCont">
+          <img id="bellIcon" src="/assets/bell-icon-removebg.png" alt="" />
+        </div>
+        <div class="prflImgCont">
+          <p id="profilePic">AR</p>
+        </div>
+      </div>
     </header>
     <main></main>
     <aside></aside>
