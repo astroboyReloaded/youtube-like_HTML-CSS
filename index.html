@@ -6,10 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Youtube-like (TheOdinProject)</title>
     <link rel="stylesheet" href="/index.css" />
-    <script
-      src="https://kit.fontawesome.com/ec3aeabf1a.js"
-      crossorigin="anonymous"
-    ></script>
   </head>
   <body>
     <header>
@@ -19,12 +15,12 @@
           <div class="menu-button"></div>
         </label>
       </div>
-      <div class="logo">
+      <div class="logoCont">
         <a href="https://www.youtube.com/">
-          <img src="/assets/Youtube-logo.png" alt="youtube logo" />
+          <img id="logoImg" src="/assets/Youtube-logo.png" alt="youtube logo" />
         </a>
       </div>
-      <div class="searchbar">
+      <div class="searchbarCont">
         <input type="text" placeholder="Search" />
         <div class="srchIconCont">
           <img
@@ -32,13 +28,12 @@
             src="/assets/magnifying-glass-removebg.png"
             alt=""
           />
-          <button id="magGlassButt"></button>
         </div>
         <div class="micCont">
           <img id="mic" src="/assets/microphone-icon.png" alt="" />
         </div>
       </div>
-      <div class="buttons">
+      <div class="buttonsCont">
         <div class="crtIconCont">
           <img id="crtImg" src="/assets/create-icon-removebg.png" alt="" />
         </div>
@@ -50,7 +45,57 @@
         </div>
       </div>
     </header>
-    <main></main>
+    <main>
+      <iframe
+        width="721"
+        height="450"
+        src="https://www.youtube.com/embed/V74l_zS1x8E"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <div class="videoData">
+        <h1>Contributing to Open Source Part I: The Easy Way</h1>
+        <div class="channel">
+          <a
+            id="tODLink"
+            href="https://www.youtube.com/channel/UCk0b0VTnJxXbxupXJ4D2yjQ"
+            ><img id="TheOP" src="/assets/TheOdinP.png" alt="" />
+            <div class="creator">
+              <h2>The Odin Project</h2>
+              <p id="subscribers">1,110 susbscribers</p>
+            </div></a
+          >
+          <button id="subscribeBtn">Subscribe</button>
+        </div>
+        <div class="interact">
+          <div class="like">
+            <button id="likeBtn">
+              <img id="likeImg" src="/assets/like-removebg.png" alt="" />
+              <p id="numLikes">488</p>
+              <img id="disLikeImg" src="/assets/dis-like-removebg.png" alt="" />
+            </button>
+          </div>
+          <div class="share">
+            <button id="shareBtn">
+              <img id="shareImg" src="/assets/share.png" alt="" />
+            </button>
+          </div>
+          <div class="download">
+            <button id="downloadBtn">
+              <!-- <img src="/assets/download.png" alt="" /> -->
+            </button>
+          </div>
+          <div class="save">
+            <button id="saveBtn">
+              <!-- <img src="/assets/save.png" alt="" /> -->
+            </button>
+          </div>
+          <div class="more"><button id="moreBtn">more</button></div>
+        </div>
+      </div>
+    </main>
     <aside></aside>
   </body>
 </html>
