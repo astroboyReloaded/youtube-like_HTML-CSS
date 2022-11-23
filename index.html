@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/assets/fabicon-removebg-preview.png">
     <title>Youtube-like (TheOdinProject)</title>
     <link rel="stylesheet" href="/index.css" />
   </head>
@@ -45,57 +46,150 @@
         </div>
       </div>
     </header>
-    <main>
-      <iframe
-        width="721"
-        height="450"
-        src="https://www.youtube.com/embed/V74l_zS1x8E"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-      <div class="videoData">
-        <h1>Contributing to Open Source Part I: The Easy Way</h1>
-        <div class="channel">
-          <a
-            id="tODLink"
-            href="https://www.youtube.com/channel/UCk0b0VTnJxXbxupXJ4D2yjQ"
-            ><img id="TheOP" src="/assets/TheOdinP.png" alt="" />
-            <div class="creator">
-              <h2>The Odin Project</h2>
-              <p id="subscribers">1,110 susbscribers</p>
-            </div></a
-          >
-          <button id="subscribeBtn">Subscribe</button>
+    <div class="bodyCont">
+      <main>
+        <div class="mainCont">
+          <iframe
+            width="768"
+            height="480"
+            src="https://www.youtube.com/embed/V74l_zS1x8E"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <div class="videoData">
+            <h1>Contributing to Open Source Part I: The Easy Way</h1>
+            <div class="channel">
+              <a
+                id="tOPLink"
+                href="https://www.youtube.com/channel/UCk0b0VTnJxXbxupXJ4D2yjQ"
+                ><img id="TheOP" src="/assets/TheOdinP.png" alt="" />
+                <div class="creator">
+                  <h2>The Odin Project</h2>
+                  <p id="subscribers">1,110 susbscribers</p>
+                </div></a
+              >
+              <button id="subscribeBtn">Subscribe</button>
+              <div class="interact">
+                <div class="like">
+                  <button id="likeBtn">
+                    <img id="likeImg" src="/assets/like-removebg.png" alt="" />
+                    <p id="numLikes">488</p>
+                    <img
+                      id="disLikeImg"
+                      src="/assets/dis-like-removebg.png"
+                      alt=""
+                    />
+                  </button>
+                </div>
+                <div class="share">
+                  <button id="shareBtn">
+                    <img id="shareImg" src="/assets/share.png" alt="" />
+                    <p id="share">Share</p>
+                  </button>
+                </div>
+                <div class="more">
+                  <button id="moreBtn"><p id="dots">...</p></button>
+                </div>
+              </div>
+            </div>
+            <div class="panel-wrapper">
+              <a href="#show" class="show" id="show">Show more</a>
+              <a href="#hide" class="hide" id="hide">Show less</a>
+              <div class="panel">
+                <p id="visits">68,481 vists 8 years ago</p>
+                <div id="descCont"><p id="description">How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of contributions open source software projects are typically looking for.  As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails.  You can find more information about that project at <a href="http://theodinproject.com">http://theodinproject.com</a></p></div> 
+            </div>
+            <div class="fade"></div>
+          </div>
         </div>
-        <div class="interact">
-          <div class="like">
-            <button id="likeBtn">
-              <img id="likeImg" src="/assets/like-removebg.png" alt="" />
-              <p id="numLikes">488</p>
-              <img id="disLikeImg" src="/assets/dis-like-removebg.png" alt="" />
-            </button>
+      </main>
+      <aside>
+        <div class="asideCont">
+          <div class="thumbCont">
+            <img class="thumbImg" src="/assets/aside-img_1.png" alt="">
+            <div class="thumbDescCont">
+              <p class="thumbTitle">Contributing to Open Source Part II: The Real Way</p><p class="thumbCreator">The Odin Project</p>
+              <div class="smllThmbTxt">
+                <p class="visits">38,831 visits</p><div class="dash"></div><p class="time">8 years ago</p>
+              </div>
           </div>
-          <div class="share">
-            <button id="shareBtn">
-              <img id="shareImg" src="/assets/share.png" alt="" />
-            </button>
           </div>
-          <div class="download">
-            <button id="downloadBtn">
-              <!-- <img src="/assets/download.png" alt="" /> -->
-            </button>
+          <div class="thumbCont">
+            <img class="thumbImg" src="/assets/aside-img_2.png" alt="">
+            <div class="thumbDescCont">
+              <p class="thumbTitle">Contributing to Open Source on GitHub For Beginners</p><p class="thumbCreator">Kent C. Dodds</p>
+              <div class="smllThmbTxt">
+                <p class="visits">90,232 visits</p><div class="dash"></div><p class="time">3 years ago</p>
+              </div>
           </div>
-          <div class="save">
-            <button id="saveBtn">
-              <!-- <img src="/assets/save.png" alt="" /> -->
-            </button>
           </div>
-          <div class="more"><button id="moreBtn">more</button></div>
+          <div class="thumbCont">
+            <img class="thumbImg" src="/assets/aside-img_3.png" alt="">
+            <div class="thumbDescCont">
+              <p class="thumbTitle">GitHub and Open Source Documentation</p><p class="thumbCreator">Rahul Karn</p>
+              <div class="smllThmbTxt">
+                <p class="visits">2,125 visits</p><div class="dash"></div><p class="time">4 years ago</p>
+              </div>
+          </div>
+          </div>
+          <div class="thumbCont">
+            <img class="thumbImg" src="/assets/aside-img_4.png" alt="">
+            <div class="thumbDescCont">
+              <p class="thumbTitle">GitHub How to build a strong community for your open...</p><p class="thumbCreator">Wix Engineering Tech Talks</p>
+              <div class="smllThmbTxt">
+                <p class="visits">1,691 visits</p><div class="dash"></div><p class="time">7 years ago</p>
+              </div>
+          </div>
+          </div>
+          <div class="thumbCont">
+            <img class="thumbImg" src="/assets/aside-img_5.png" alt="">
+            <div class="thumbDescCont">
+              <p class="thumbTitle">How to  make your open source project thrive, with Andrey...</p><p class="thumbCreator">Sourcegraph</p>
+              <div class="smllThmbTxt">
+                <p class="visits">1,866 visits</p><div class="dash"></div><p class="time">7 years ago</p>
+              </div>
+          </div>
+          </div>
+          <div class="thumbCont">
+            <img class="thumbImg" src="/assets/aside-img_6.png" alt="">
+            <div class="thumbDescCont">
+              <p class="thumbTitle">Using ScanCode Tookit to Identify Open Source software</p><p class="thumbCreator">NextB</p>
+              <div class="smllThmbTxt">
+                <p class="visits">1,919 visits</p><div class="dash"></div><p class="time">6 years ago</p>
+              </div>
+          </div>
+          </div>
+          <div class="thumbCont">
+            <img class="thumbImg" src="/assets/aside-img_7.png" alt="">
+            <div class="thumbDescCont">
+              <p class="thumbTitle">Open Source Hardware Explained - EEVblog #195</p><p class="thumbCreator">EEVblog</p>
+              <div class="smllThmbTxt">
+                <p class="visits">65,124 visits</p><div class="dash"></div><p class="time">6 years ago</p>
+              </div>
+          </div>
+          </div>
+          <div class="thumbCont">
+            <img class="thumbImg" src="/assets/aside-img_8.png" alt="">
+            <div class="thumbDescCont">
+              <p class="thumbTitle">Code your first website and put it online for FREE in 10 mins!</p><p class="thumbCreator">Eddie Joaude</p>
+              <div class="smllThmbTxt">
+                <p class="visits">6,666 visits</p><div class="dash"></div><p class="time">4 years ago</p>
+              </div>
+          </div>
+          </div>
+          <div class="thumbCont">
+            <img class="thumbImg" src="/assets/aside-img_9.png" alt="">
+            <div class="thumbDescCont">
+              <p class="thumbTitle">Should you use Open ource Software</p><p class="thumbCreator">Stephan Mischook</p>
+              <div class="smllThmbTxt">
+                <p class="visits">10,365 visits</p><div class="dash"></div><p class="time">3 years ago</p>
+              </div>
+          </div>
+          </div>
         </div>
-      </div>
-    </main>
-    <aside></aside>
+      </aside>
+    </div>
   </body>
 </html>
